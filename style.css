@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Utilities Section **/
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** Box-1 Amazon Logo **/
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo{
+    height: 50px;
+    width: 113px;
+    min-width: 113px;
+}
+
+.logo{
+    background-image: url("Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/** Box-2 Delivery Location **/
+
+.navbar-location{
+    color: white;
+    margin-left: 10px;
+    border: 1.5px solid transparent;
+}
+
+.navbar-location:hover{
+    padding: 0.5rem;
+    border: 1.5px solid white;
+    margin-left: 2px;
+    margin-right: -8px;
+}
+
+.location-div{
+    display: flex;
+    align-items: center;
+}
+
+.add-first{
+    font-size: 0.75rem;
+    font-weight: lighter;
+    margin-left: 15px;
+    min-width: 55px;
+}
+
+.add-sec{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+/** Box-3 Search Input **/
+
+.searchbar{
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    min-width: 200px;
+}
+
+.searchbar-dropdown{
+    border-end-start-radius: 5px;
+    border-start-start-radius: 5px;
+    width: 50px;
+    background-color: #e6e6e6;
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+    border: none;    
+}
+
+.navbar-search{
+    height: 40px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.searchbar-logo{
+    background-color: orange;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.navbar-search:hover{
+    border: 2px solid orange;
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    border-end-start-radius: 7.5px;
+    border-start-start-radius: 7.5px;    
+}
+
+/** Box-4 Sign In **/
+
+.signin{
+    margin-left: 10px;
+}
+
+.signin-text{
+    color: white;
+    font-size: 0.75rem;
+    margin-left: 5px;
+}
+
+.signin-dropdown{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.signin-border {
+    border: 1.5px solid transparent;
+}
+
+.signin-border:hover {
+    border: 1.5px solid white;
+    padding: 0.5rem;
+    margin-left: 2px;
+    margin-right: -8px;
+}
+
+/** Box-5 Returns & Orders **/
+
+.returns-orders{
+    color: white;
+    margin-left: 10px;
+}
+
+.returns{
+    font-size: 0.75rem;
+}
+
+.orders{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.return-orders-border {
+    border: 1.5px solid transparent;
+}
+
+.return-orders-border:hover {
+    border: 1.5px solid white;
+    padding: 0.5rem;
+    margin-left: 2px;
+    margin-right: -8px;
+}
+
+/** Box-6 Cart **/
+.cart{
+    color: white;
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 5px;
+}
+
+.cart-icon{
+    font-size: 1.75rem;
+    margin-left: 15px;
+}
+
+.cart-text{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.cart-border{
+    border: 1.5px solid transparent;
+}
+
+.cart-border:hover{
+    transform: scale(1.05)
+}
+
+/** menu items**/
+
+.menu-items{
+    display: flex;
+    height: 39px;
+    background-color: #232F3E;
+    color: white;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu-items-logo{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.menu-items ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu-items-li{
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.menu-items-li1{
+    margin-left: -45px;
+}
+
+/** Shop Section **/
+
+.shop-section{
+    margin: 0px 0px;
+}
+
+@media (min-width: 1750px) and (max-width: 200px){
+    .shop-section{
+        margin: 0px 125px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1750px){
+    .shop-section{
+        margin: 0px 75px;
+    }
+}
+
+@media (min-width: 1750px){
+    .shop-section{
+        margin: 0px 150px;
+    }
+}
+
+/** Hero Section **/
+
+.hero-logo{
+    background-image: url("Images/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.hero-text{
+    font-size: 0.85rem;
+    background-color: #F5F6F6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    position: relative;
+    bottom: 75px;
+    letter-spacing: 0.5px;
+}
+
+.hero-text a{
+    text-decoration: none;
+    color: #167185;
+}
+
+/** Flex Items **/
+
+.flex-items{
+    margin-top:-50px;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.flex-items-child{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+/** Flex-Items-1 **/
+
+.flex-items-1-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-1-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-1-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-2 **/
+
+.flex-items-2-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-2-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-2-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-3 **/
+
+.flex-items-3-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-3-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-3-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-4 **/
+
+.flex-items-4-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-4-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-4-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-5 **/
+
+.flex-items-5-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-5-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-5-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-6 **/
+
+.flex-items-6-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-6-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-6-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-7 **/
+
+.flex-items-7-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-7-content p {
+    color: #167185;
+    margin-top: 40px;
+}
+
+.flex-items-7-image{
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+/** Flex-Items-8 **/
+
+.flex-items-8-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.flex-items-8-content{
+    margin: 0px 1rem;
+}
+
+.flex-items-8-content p {
+    color: #167185;
+}
+
+.flex-items-8-images img{
+    height: 85px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1350px){
+    .flex-items-8-images img{
+        height: 70px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1200px){
+    .flex-items-8-images img{
+        height: 60px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+}
+
+@media (min-width: 1065px) and (max-width: 1150px){
+    .flex-items-8-images img{
+        height: 50px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+}
+
+/** Footer **/
+/** Back to Top **/
+
+.back-to-top{
+    display: flex;
+    background-color: #485769;
+    height: 50px;
+    color: white;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+/** footer-quick-links **/
+
+.footer-quick-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: white;
+    font-weight: lighter;
+    padding-top: 30px;
+    margin-bottom: -50px;
+    height: 500px;
+}
+
+.quick-links-1 a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links-1 p{
+    margin-top: 10px;
+}
+
+.quick-links-1 a:hover{
+ text-decoration: underline;
+}
+
+.quick-links-2 a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links-2 p{
+    margin-top: 10px;
+}
+
+.quick-links-2 a:hover{
+    text-decoration: underline;
+}
+
+.quick-links-3 a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links-3 p{
+    margin-top: 10px;
+}
+
+.quick-links-3 a:hover{
+    text-decoration: underline;
+}
+
+.quick-links-4 a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links-4 p{
+    margin-top: 10px;
+}
+
+.quick-links-4 a:hover{
+    text-decoration: underline;
+}
+
+.quick-links-header{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/** Divider **/
+.divider{
+    border-top: 0.05px solid rgb(126, 126, 126);
+    position: relative;
+    bottom: 50px;
+}
+
+/** Footer Quick Tools **/
+
+.footer-quick-tools{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-language-selector{
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid rgb(114, 110, 110);
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.footer-language-selector-text{
+    margin-left: 10px;
+}
+
+.footer-currency-selector{
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid rgb(114, 110, 110);
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.footer-currency-selector-text{
+    margin-left: 10px;
+}
+
+.footer-country-selector{
+    display: flex;
+    border: 1px solid rgb(114, 110, 110);
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.footer-country-selector-text{
+    margin-left: 10px;
+}
