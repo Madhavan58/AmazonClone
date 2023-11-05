@@ -336,10 +336,26 @@
         height: 1150px;
         justify-content: flex-start;
         align-items: center;
-        gap: 50px;
+        gap: 40px;
     }
 
     .quick-links{
         width: auto;
+    }
+
+    .divider{
+        border-top: 0.05px solid rgb(126, 126, 126);
+        position: relative;
+        bottom: 85px;
+    }
+
+    .footer-quick-tools{
+        display: flex;
+        position: relative;
+        bottom: 40px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
     }
 }
