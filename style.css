@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    overflow: hidden;
+}
+
 /** Utilities Section **/
 
 .border{
@@ -206,6 +210,11 @@
     transform: scale(1.05)
 }
 
+/** Box 7 Hamburger Icon **/
+.hamburger-icon{
+    display: none;
+}
+
 /** menu items**/
 
 .menu-items{
@@ -241,24 +250,6 @@
 
 .shop-section{
     margin: 0px 0px;
-}
-
-@media (min-width: 1750px) and (max-width: 200px){
-    .shop-section{
-        margin: 0px 125px;
-    }
-}
-
-@media (min-width: 1500px) and (max-width: 1750px){
-    .shop-section{
-        margin: 0px 75px;
-    }
-}
-
-@media (min-width: 1750px){
-    .shop-section{
-        margin: 0px 150px;
-    }
 }
 
 /** Hero Section **/
@@ -450,30 +441,6 @@
     margin: 1rem 0;
 }
 
-@media (min-width: 1200px) and (max-width: 1350px){
-    .flex-items-8-images img{
-        height: 70px;
-        background-size: cover;
-        margin: 1rem 0;
-    }
-}
-
-@media (min-width: 1150px) and (max-width: 1200px){
-    .flex-items-8-images img{
-        height: 60px;
-        background-size: cover;
-        margin: 1rem 0;
-    }
-}
-
-@media (min-width: 1065px) and (max-width: 1150px){
-    .flex-items-8-images img{
-        height: 50px;
-        background-size: cover;
-        margin: 1rem 0;
-    }
-}
-
 /** Footer **/
 /** Back to Top **/
 
@@ -498,7 +465,6 @@
     color: white;
     font-weight: lighter;
     padding-top: 30px;
-    margin-bottom: -50px;
     height: 500px;
 }
 
@@ -567,7 +533,7 @@
 .divider{
     border-top: 0.05px solid rgb(126, 126, 126);
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
 }
 
 /** Footer Quick Tools **/
@@ -575,10 +541,11 @@
 .footer-quick-tools{
     display: flex;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     color: white;
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
 }
 
 .footer-language-selector{

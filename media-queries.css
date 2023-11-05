@@ -1,0 +1,345 @@
+/* Media Query - Max Width: 1024Px*/
+
+@media screen and (max-width: 1334px){
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .hamburger-icon{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navbar-items{
+        display: none;
+    }
+
+    .hero-logo{
+        height: 300px;
+    }
+
+    .flex-items{
+        margin-top:-50px;   
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    
+    .flex-items-child{
+        height: 400px;
+        width: 30%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .flex-items{
+        margin-top:-50px;   
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    
+    .flex-items-child{
+        height: 400px;
+        width: 32.5%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-logo{
+        height: 200px;
+    }
+
+    .hero-text{
+        font-size: 0.85rem;
+        background-color: #F5F6F6;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 20px;
+        position: relative;
+        bottom: 75px;
+        letter-spacing: 0.5px;
+    }
+    
+    .hero-text a{
+        text-decoration: none;
+        color: #167185;
+        margin-top: 0.25rem;
+    }
+
+    .flex-items{
+        margin-top:-50px;   
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    
+    .flex-items-child{
+        height: 400px;
+        width: 42.5%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 20px;
+    }
+    
+    .quick-links{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+    .menu-items-li{
+        padding: 10px;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    .menu-items-hide{
+        display: none;
+        justify-content: space-evenly;
+    }
+
+    .hero-logo{
+        background-image: url("Images/hero_image.jpg");
+        background-size: cover;
+        height: 200px;
+        width: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text{
+        font-size: 0.6rem;
+        background-color: #F5F6F6;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+        bottom: 60px;
+        letter-spacing: 0.5px;
+    }
+
+    .hero-text-hide{
+        display: none;
+    }
+
+    .flex-items{
+        margin-top:-50px;   
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    
+    .flex-items-child{
+        height: 200px;
+        width: 45%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 20px;
+    }
+    
+    /** Flex-Items-1 **/
+    
+    .flex-items-1-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-1-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-1-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-1-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-2 **/
+    
+    .flex-items-2-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-2-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-2-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-2-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    /** Flex-Items-3 **/
+    
+    .flex-items-3-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-3-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-3-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-3-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-4 **/
+    
+    .flex-items-4-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-4-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-4-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-4-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-5 **/
+    
+    .flex-items-5-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-5-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-5-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-5-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-6 **/
+    
+    .flex-items-6-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-6-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-6-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-6-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-7 **/
+    
+    .flex-items-7-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-7-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-7-content p {
+        color: #167185;
+        margin-top: 0px;
+    }
+    
+    .flex-items-7-image{
+        height: 100px;
+        background-size: cover;
+        margin: 1rem 0;
+    }
+    
+    /** Flex-Items-8 **/
+    
+    .flex-items-8-content{
+        margin: 0px 1rem;
+    }
+
+    .flex-items-8-content h3{
+        font-size: 0.9rem;
+    }
+    
+    .flex-items-8-content p {
+        color: #167185;
+        margin-top: -180px;
+    }
+    
+    .flex-items-8-images img{
+        height: 75px;
+        background-size: cover;
+        margin: 1rem 0;
+    }  
+    
+    .flex-items-8-hide{
+        display: none;
+    }
+
+    .footer-quick-links{   
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: nowrap;
+        height: 1150px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .quick-links{
+        width: auto;
+    }
+}
